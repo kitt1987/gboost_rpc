@@ -1,0 +1,13 @@
+option cc_generic_services = true;
+
+message RequestData {
+  optional bytes payload = 1;
+}
+
+message ResponseData {
+  optional bytes payload = 1;
+}
+
+service BenchmarkInterface {
+  rpc Test(RequestData) returns(ResponseData);
+}

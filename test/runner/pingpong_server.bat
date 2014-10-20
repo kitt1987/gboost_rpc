@@ -1,0 +1,1 @@
+@..\bin\%4\pingpong_server.exe -port=%1 -worker=%2 -num_servers=%3

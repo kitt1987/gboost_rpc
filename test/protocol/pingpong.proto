@@ -1,0 +1,10 @@
+option cc_generic_services = true;
+
+message Ball {
+  required uint32 client_id = 1;
+  required uint64 count = 2;
+}
+
+service PingPongTesting {
+  rpc PingPong(Ball) returns(Ball);
+}

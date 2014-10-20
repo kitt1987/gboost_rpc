@@ -1,0 +1,1 @@
+@for /l %%x in (1, 1, 5) do pingpong_client.bat 20141 1 100000 Debug

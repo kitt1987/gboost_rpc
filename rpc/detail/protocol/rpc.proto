@@ -1,0 +1,8 @@
+package gboost_rpc.detail;
+
+message RPCMetaData {
+  required uint64 seq = 1;
+  required int32 service_id = 2;
+  required int32 method_id = 3;
+  required uint32 message_length = 4;
+}

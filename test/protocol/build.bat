@@ -1,0 +1,1 @@
+for /f %%i IN ('dir /b *.proto') DO protoc.exe --cpp_out=. %%i
